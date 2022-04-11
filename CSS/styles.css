@@ -1,17 +1,29 @@
 body {
-    background-color: #2C2F33;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+.top-div {
+    background-color: blueviolet;
+    width: 100vw;
+    height: 300px;
+}
+
+.flex {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .div1 {
-    height: 100px;
-    width: 100px;
-    background-color: #404EED;
+    height: 300px;
+    width: 100vw;
+    background-color: blue;
 }
+
 .div2 {
-    height: 100px;
-    width: 100px;
-    background-color: #5865F2;
+    height: 300px;
+    width: 100vw;
+    background-color: orange;
 }
