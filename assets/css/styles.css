@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.top-div {
+    background-color: brown;
+    width: 100vw;
+    height: 300px;
+}
+
+.top-div ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-div ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 2%;
+    font-size: 2rem;
+}
+
+.top-div ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.3% ease 0%;
+
+}
+
+.top-div ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 {
+    height: 300px;
+    width: 100vw;
+    background-color: blue;
+}
+
+.div2 {
+    height: 300px;
+    width: 100vw;
+    background-color: orange;
+}
+
+.footer {
+    height: 300px;
+    width: 100vw;
+    background-color: rgb(183, 15, 99);
+}
