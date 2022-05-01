@@ -51,10 +51,17 @@ body {
     height: 300px;
     width: 100vw;
     background-color: orange;
+    text-align: center;
 }
 
 .footer {
     height: 300px;
     width: 100vw;
     background-color: rgb(183, 15, 99);
+}
+
+.div1 > img {
+    max-width: 28.1rem;
+    max-height: 28.1rem;
+    display: flex;
 }
