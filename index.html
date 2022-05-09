@@ -8,18 +8,25 @@
     <title>Siddhesh's Website</title>
   </head>
   <body>
-    <div class="top-div">
+    <div class="nav-bar">
       <ul>
-        <li><a href="test.html">home</a></li>
-        <li><a href="test.html">contact</a></li>
-        <li><a href="test.html">project</a></li>
-        <li><a href="test.html">services</a></li>
+        <li><a href="#" onclick="e()">Never</a></li>
+        <li><a href="#" onclick="e()">Gonna</a></li>
+        <li><a href="#" onclick="e()">Give</a></li>
+        <li><a href="#" onclick="e()">You</a></li>
+        <li><a href="#" onclick="e()">Up</a></li>
       </ul>
     </div>
 
+    <video id="rickroll" controls autoplay muted width="852" height="480">
+      <source src="assets/video/rickroll.mp4" type="video/mp4" />
+    </video>
+
+    <script src="assets/js/main.js"></script>
+
     <div class="flex">
       <div class="div1">
-          <img src="assets/images/image1.jpg" alt="eee" title="testing">
+        <img src="assets/images/image1.jpg" alt="eee" title="testing" />
       </div>
       <div class="div2">
         <h1>Test:</h1>
@@ -27,6 +34,68 @@
       </div>
     </div>
 
-    <div class="footer"></div>
+    <div class="footer" id="footer">
+      <h1><br>never gonna give you up<br>never gonna let you down</h1>
+      <button onclick="e()">eeeeee</button>
+      <img src="assets/images/rickroll-roll.gif" alt="" width="50px" height="30px">
+      <img style="padding-bottom: 30px;" src="assets/images/rickroll-roll.gif" alt="" width="50" height="150px">
+      <img src="assets/images/rickroll-roll.gif" alt="" width="50px" height="30px">
+
+      <img class="err" src="assets/images/rickroll-roll.gif" alt="" width="420px" height="69px">
+      <div class="f">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <form>
+          <div class="EVC__Form-Container__Left">
+          <!-- TITLE -->
+          <h2>Sign Up!</h2>
+          
+          <!-- FIRST NAME -->
+          <input
+          id="FirstName"
+          type="text"
+          placeholder="Enter the door"
+          name="name"
+          />
+          
+          <!-- LAST NAME -->
+          <input
+          id="LastName"
+          type="number"
+          placeholder="Enter last Name"
+          name="name"
+          />
+          
+          <!-- YEAR LEVEL -->
+          <input
+          id="YearLevel"
+          type="number"
+          placeholder="11"
+          name="YearLevel"
+          min="1"
+          *max="900"
+          />
+          
+          <!-- EMAIL -->
+          <input
+          type="text"
+          id="email"
+          placeholder="Enter Email"
+          name="email"
+          />
+          
+          <!-- Submit -->
+          <input id="submit" type="submit" onclick="e()"/>
+          </div>
+          </form>
+      </div>
+    </div>
   </body>
 </html>

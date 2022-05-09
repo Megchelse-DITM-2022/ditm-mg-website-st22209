@@ -10,5 +10,4 @@ function e() {
         div.style.display = "none"
     }
     div.currentTime = 0;
-
 }
